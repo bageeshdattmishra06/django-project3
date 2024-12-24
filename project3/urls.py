@@ -20,6 +20,6 @@ from app3.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('innocent/',aman,name='anything'),
+    path('innocent/',innocent,name='innocent'),
     
 ]
